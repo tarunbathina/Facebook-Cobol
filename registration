@@ -1,15 +1,10 @@
-public class Reverse {
+[200~<!DOCTYPE html>
+<html>
+<body>
 
-  public static void main(String[] args) {
-    String sentence = "Go work";
-    String reversed = reverse(sentence);
-    System.out.println("The reversed sentence is: " + reversed);
-  }
+<h1>My First Heading</h1>
 
-  public static String reverse(String sentence) {
-    if (sentence.isEmpty())
-      return sentence;
+<p>My first paragraph.</p>
 
-    return reverse(sentence.substring(1)) + sentence.charAt(0);
-  }
-}
+</body>
+</html>
